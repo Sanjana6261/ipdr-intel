@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+alembic
+pydantic
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+pandas
+numpy
+networkx
+python-louvain
+scikit-learn
+faker
+phonenumbers
+aiofiles
+httpx
