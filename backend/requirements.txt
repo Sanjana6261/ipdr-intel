@@ -15,3 +15,5 @@ faker
 phonenumbers
 aiofiles
 httpx
+psycopg2-binary
+python-dotenv

@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.database import engine, Base
+import app.models
 from app.routers import auth, parser, network, geo, cases, patterns, predictive, devices
 
 Base.metadata.create_all(bind=engine)
