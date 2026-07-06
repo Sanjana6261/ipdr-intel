@@ -29,11 +29,10 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",
-        "http://localhost:3000",
-        # Add your frontend Render URL here after deployment
-        # "https://your-frontend.onrender.com",
-    ],
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "https://ipdr-intel-delta.vercel.app",
+],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
